@@ -1,0 +1,74 @@
+<div class="header_container">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <div class="logoPosition">
+        <img src="./../../../assets/icons/logo.svg" />
+      </div>
+      <mat-tab-group animationDuration="0ms" mat-align-tabs="center">
+        <!-- <mat-tab *ngFor="let title of routerList">
+            <ng-template mat-tab-label>
+              <span >{{title.title}}</span>
+            </ng-template>
+          </mat-tab> -->
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <span>Home</span>
+          </ng-template>
+          <div class="row">
+            <div class="col-12">
+              <app-news [newsData]="newsData"></app-news></div>
+          </div>
+        </mat-tab>
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <span>Bookmarks</span>
+          </ng-template>
+          <div style="height: 200px;">Page not available</div>
+        </mat-tab>
+      </mat-tab-group>
+      <form id="search-form" class="buttonPosition">
+        <div class="search">
+          <input type="text" name="search" class="round" placeholder="Search" />
+          <span class="corner"
+            ><img src="./../../../assets/icons/ic_search.svg"
+          /></span>
+        </div>
+      </form>
+    </div>
+    <div class="col-1">
+      <div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <div>Logo</div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <div>Media logo</div>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright:
+      <!-- <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>

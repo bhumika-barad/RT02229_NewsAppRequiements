@@ -1,0 +1,54 @@
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.borderBotton:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 3%;
+    /* or 100px */
+    border-bottom: 1px solid purple;
+}
+
+.subTitle {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.chiplate {
+    color: #6c757d;
+    font-weight: 400;
+    background-color: #eaeced;
+    /* padding: 1%; */
+    line-height: 18px;
+}
+
+.imgSize {
+    height: 312px;
+    overflow: hidden;
+}
+
+.sectionBorder {
+    border-bottom: 1px solid rgba(219, 219, 217);
+}
+
+.loadingSign {
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+// .mat-tab-group {
+//     margin-bottom: 48px;
+// }
+// .header_container{
+//     background-color: #fff;
+//     padding: 2% 5% 0% 5%;
+//     -webkit-box-shadow: 0 8px 6px -6px #dad4d4;
+//        -moz-box-shadow: 0 8px 6px -6px #dad4d4;
+//             box-shadow: 0 8px 6px -6px #dad4d4;
+// }
+.buttonPosition{
+    right: 0px;
+    position: absolute;
+    top: 9px;
+}
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #fff solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #f3f3f3;
+}
+
+.corner {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: transparent; /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.logoPosition{
+    position: absolute;
+    top: 2px;
+}
+.bg-light {
+    background-color: #0d1318 !important;
+    color: #bcabab;
+}
